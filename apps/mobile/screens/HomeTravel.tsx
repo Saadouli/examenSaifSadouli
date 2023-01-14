@@ -51,14 +51,15 @@ return (
   width={50}
 />*/}
 
+
 <Notification
   backgroundColor="white"
   elevation={0.1}
   height={50}
-  icon={<Feather color="black" name="align-center" onclick size={24}/>}
-  iconn={<Feather color="red" nom="ios-notifications-sharp" size={24}/>}
+  icon={<Feather color="black" name="align-justify" size={24}/>}
+  iconn={<Feather color="black" nom="notifications-none" size={24}/>}
   onClickButton={() => {}}
-  shadowColor="grey"
+  shadowColor="white"
   shadowOffset={{
     height: 0.2,
     width: 0.2
