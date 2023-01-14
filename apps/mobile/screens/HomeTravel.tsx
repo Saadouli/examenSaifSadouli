@@ -8,12 +8,15 @@ const   HomeTravel=({navigation}) =>{
     //   <label>Password:</label><br></br>
        //<input type
  
- source: "hhttps://bafageh.com/uploads/images/hotels/slider/445928_17c4366a-b26e-42ee-a2fd-67c9814a43da.jpg",
+/* source: "hhttps://bafageh.com/uploads/images/hotels/slider/445928_17c4366a-b26e-42ee-a2fd-67c9814a43da.jpg",
  title : "Camp Batu Gede ",
  adress : " Cisarua, Bojor",
+ description : "Rp 150.000/Day",*/
+
+ source : " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbzQSHHqKborDA_FogHBZ72GGg1UEVQ3huzckbTkCEA&s.jpg",
  description : "Rp 150.000/Day",
-
-
+ title : "Camp Batu Gede",
+ adress : " Cisarua, Bojor",
 
  },
  {
@@ -33,7 +36,7 @@ return (
      
       <View style={{flex:1 }}>
 
-      <Notification
+     {/* <Notification
   backgroundColor="white"
   elevation={0.1}
   height={50}
@@ -41,6 +44,21 @@ return (
   iconn={<MaterialIcons color="black" name="notifications-none" size={24}/>}
   onClickButton={() => {}}
   shadowColor="white"
+  shadowOffset={{
+    height: 0.2,
+    width: 0.2
+  }}
+  width={50}
+/>*/}
+
+<Notification
+  backgroundColor="white"
+  elevation={0.1}
+  height={50}
+  icon={<Feather color="black" name="align-center" onclick size={24}/>}
+  iconn={<Feather color="red" nom="ios-notifications-sharp" size={24}/>}
+  onClickButton={() => {}}
+  shadowColor="grey"
   shadowOffset={{
     height: 0.2,
     width: 0.2
