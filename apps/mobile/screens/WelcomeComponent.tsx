@@ -17,11 +17,7 @@ const WelcomeComponent = ({navigation}) => {
             title="Next"
             onPress={()=>{ navigation.navigate("HomeScreen")}}
             />
-            <Button
-            title="Next Food"
-            onPress={()=> {navigation.navigate("HomeFood")}}
-          
-          />
+         
             <Button
             title="Next Travel"
             onPress={()=> {navigation.navigate("HomeTravel")}}

@@ -73,13 +73,14 @@ return (
          
           <View style={{flex:1}}>
           
+
 <SearchBar
-  backgroundColor="#FFFFFF"
-  borderRadius={15}
+  backgroundColor="#F8F8FF"
+  borderRadius={50}
   borderStyle="hidden"
-  feather={<View style={{marginLeft: 1}}>{' '}<Feather color="black" name="search" size={20}/>{' '}</View>}
-  input={<View style={{marginLeft: 10, width: '90%'}}><TextInput placeholder="Search" /></View>}
-  width="46%"
+  feather={<View>{' '}</View>}
+  input={<View style={{flexDirection: 'row', justifyContent: 'space-between', marginLeft: 10, width: '90%'}}><TextInput placeholder="find a place to stay" /><View style={{marginLeft: 1}}>{' '}<Feather color="black" name="search" size={20}/>{' '}</View></View>}
+  width="48%"
 />
        </View>
 

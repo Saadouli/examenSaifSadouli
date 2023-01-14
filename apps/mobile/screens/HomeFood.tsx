@@ -84,13 +84,3 @@ return (
           }
 export default  HomeFood
 const styles = StyleSheet.create({})
-
-
-/*export default function HomeFood() {
-  return (
-    <View>
-      <Text>HomeFood</Text>
-    </View>
-  )
-}*/
-
